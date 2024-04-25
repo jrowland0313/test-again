@@ -1,0 +1,98 @@
+
+
+
+    body, h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+
+}
+
+/* Set dark red background for the entire HTML document */
+html, body {
+    background-color: #5b0404; /* Dark red background */
+    color: #fff; /* White text color */
+    font-family: Arial, sans-serif; /* Use Arial font */
+}
+
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set dark red background for the entire HTML document */
+html, body {
+    background-color: #5b0404; /* Dark red background */
+    color: #fff; /* White text color */
+    font-family: Arial, sans-serif; /* Use Arial font */
+}
+
+/* Styles for the header */
+header {
+    background-color: #5b0404; /* Dark red background */
+    color: #fff; /* White text color */
+    padding: 20px; /* Padding around the header */
+    text-align: center; /* Center align text */
+}
+
+header h1 {
+    margin: 0; /* Remove default margin */
+}
+
+/* Styles for the navigation pane */
+nav {
+    background-color: #000; /* Black background */
+    padding: 10px; /* Padding for navigation items */
+    text-align: center; /* Center align text */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Display items horizontally */
+    margin-right: 10px; /* Add some space between items */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin for the last item */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text color */
+    font-weight: bold;
+}
+
+/* Styles for the statistics section */
+.container {
+    margin: 20px auto; /* Center the container */
+    width: 80%; /* Set the width of the container */
+}
+
+#Statistics {
+    text-align: center; /* Center the content */
+    margin-bottom: 20px; /* Add some space below the statistics section */
+}
+
+#Statistics header {
+    margin-bottom: 10px; /* Add some space below the header */
+}
+
+#Statistics h2 {
+    display: inline-block; /* Display side-by-side */
+    margin-right: 20px; /* Add some space between elements */
+}
+
+#Statistics h3, #Statistics h4 {
+    text-align: center; /* Center align text */
+    margin-top: 20px; /* Add some space above the elements */
+}
+
+#Statistics .Offense {
+    text-align: center; /* Center align text */
+}
+
+  
